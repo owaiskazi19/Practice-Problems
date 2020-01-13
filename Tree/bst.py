@@ -21,7 +21,7 @@ def insert(root, node):
                 insert(root.left, node)
 
 def search(root, val):
-    if (root is None or root.val == val):e
+    if (root is None or root.val == val):
             return root
         
     if (root.val > val):
